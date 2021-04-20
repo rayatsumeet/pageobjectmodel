@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-20T17:05:04 IST" name="Suitepageobject" finished-at="2021-04-20T17:05:28 IST" duration-ms="24115">
+    <groups>
+    </groups>
+    <test started-at="2021-04-20T17:05:04 IST" name="Testlogin" finished-at="2021-04-20T17:05:28 IST" duration-ms="24115">
+      <class name="TestCases.LoginTest">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@41fbdac4]" started-at="2021-04-20T17:05:05 IST" name="loginTest" data-provider="getData" finished-at="2021-04-20T17:05:15 IST" duration-ms="10363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sumeetrayat9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sonu@1991]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@41fbdac4]" started-at="2021-04-20T17:05:29 IST" name="tearDown" finished-at="2021-04-20T17:05:29 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.CreateAccountTest">
+        <test-method signature="createTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.CreateAccountTest@3c407114]" started-at="2021-04-20T17:05:16 IST" name="createTest" data-provider="getData" finished-at="2021-04-20T17:05:28 IST" duration-ms="12570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sumeet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[This field acts as a calculator for any expression you input.
+E.g. 20+20 will yield 40 automatically]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+      </class> <!-- TestCases.CreateAccountTest -->
+    </test> <!-- Testlogin -->
+  </suite> <!-- Suitepageobject -->
+</testng-results>

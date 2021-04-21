@@ -26,7 +26,9 @@ public class CreateAccount  extends Page {
 		//clikcing and filling value in industry type
 		click("industry");
 		type("industrytype", "Wireless Industry");
-		findele("industrytype").sendKeys(Keys.chord(Keys.CONTROL,Keys.ENTER));
+	//	findele("industrytype").sendKeys(Keys.chord(Keys.CONTROL,Keys.ENTER));
+		Keys.chord(Keys.CONTROL,Keys.ENTER);
+	
 		
 		//verifying account revenue tittle popup
 		click("accountrevenueclick");

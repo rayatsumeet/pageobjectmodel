@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import CRMAccounts.Accountspage;
+import CrrmFeeds.FeedsPage;
 
 public class TopMenu {
 	
@@ -27,6 +28,12 @@ public class TopMenu {
 	public void goToContacts()
 	{
 		
+	}
+	public FeedsPage goToFeeds()
+	{
+		
+		driver.findElement(By.xpath("//*[@id=\"mainMenuTabDiv\"]/crm-menu/div[1]/crm-tab/div[2]/div[8]/a")).click();
+		return new FeedsPage();
 	}
 	
 	public Accountspage goToAccounts()

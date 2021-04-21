@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.SendKeysAction;
 import org.testng.Assert;
 
 import Base.Page;
+import Pages.ZohoAppPage;
 
 public class CreateAccount  extends Page {
 	
@@ -26,13 +27,14 @@ public class CreateAccount  extends Page {
 		//clikcing and filling value in industry type
 		click("industry");
 		type("industrytype", "Wireless Industry");
-	//	findele("industrytype").sendKeys(Keys.chord(Keys.CONTROL,Keys.ENTER));
+	
 		Keys.chord(Keys.CONTROL,Keys.ENTER);
 	
 		
 		//verifying account revenue tittle popup
 		click("accountrevenueclick");
 		Assert.assertEquals(findele("accountrevenuetittle").getText(),acctittle);
+		
 		//rating select
 		click("ratingclick");
 		
@@ -51,6 +53,12 @@ public class CreateAccount  extends Page {
 		
 	
 
+	}
+	
+	public  ZohoAppPage goToHomePage()
+	{
+		driverr.navigate().to("  https://home.zoho.in/home");
+		return new ZohoAppPage();
 	}
 
 }

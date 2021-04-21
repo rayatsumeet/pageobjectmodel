@@ -8,7 +8,7 @@
     <classes>
       <class name="TestCases.CreateAccountTest">
         <methods>
-          <include name="createTest" invocation-numbers="0"/>
+          <include name="createTest" invocation-numbers="1"/>
         </methods>
       </class> <!-- TestCases.CreateAccountTest -->
     </classes>

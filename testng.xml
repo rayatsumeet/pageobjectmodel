@@ -10,6 +10,7 @@
   
     <class name="TestCases.LoginTest"/>
      <class name="TestCases.CreateAccountTest"/>
+          <class name="TestCases.FeedTest"/>
   </classes>
   
   </test> <!-- Test -->

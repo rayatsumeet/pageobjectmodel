@@ -16,7 +16,7 @@ public class LoginTest extends BaseTest{
 	{
 		HomePage obHomePage = new HomePage();
 		LoginPage loginPage=	obHomePage.goToLogin();
-			loginPage.doLogin(username,password);	
+		loginPage.doLogin(username,password);	
 		
 	}
 

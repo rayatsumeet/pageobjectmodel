@@ -6,11 +6,11 @@
   </listeners>
   <test thread-count="5" name="Testlogin(failed)">
     <classes>
-      <class name="TestCases.CreateAccountTest">
+      <class name="TestCases.ActivitiesTest">
         <methods>
-          <include name="createTest" invocation-numbers="1"/>
+          <include name="activitiesMainPageCheck"/>
         </methods>
-      </class> <!-- TestCases.CreateAccountTest -->
+      </class> <!-- TestCases.ActivitiesTest -->
     </classes>
   </test> <!-- Testlogin(failed) -->
 </suite> <!-- Failed suite [Suitepageobject] -->

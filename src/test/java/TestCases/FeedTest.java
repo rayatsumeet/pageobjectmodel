@@ -18,6 +18,7 @@ public class FeedTest {
 		zohoAppPage.goToCRM();
 		FeedsPage feedsPage= Page.obMenu.goToFeeds();
 		feedsPage.post();
+		feedsPage.goToHomePage();
 	}
 
 }

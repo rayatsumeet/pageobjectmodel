@@ -20,9 +20,9 @@ public class TopMenu {
 		
 	}
 	
-	public void goToLeads()
+	public void goToActivities()
 	{
-		
+		driver.findElement(By.xpath("//*[@id=\"mainMenuTabDiv\"]/crm-menu/div[1]/crm-tab/div[2]/div[6]/a")).click();
 	}
 	
 	public void goToContacts()

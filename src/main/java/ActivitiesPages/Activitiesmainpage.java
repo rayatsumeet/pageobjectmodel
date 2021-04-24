@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import Base.Page;
+import Pages.ZohoAppPage;
 import Utilities.BrokenLinks;
 
 public class Activitiesmainpage extends Page{
@@ -40,6 +41,12 @@ public class Activitiesmainpage extends Page{
 	{
 	String urlString=	driverr.getCurrentUrl();
 	BrokenLinks.getBrokenLinks(urlString);
+	}
+	
+	public  ZohoAppPage goToHomePage()
+	{
+		driverr.navigate().to("  https://home.zoho.in/home");
+		return new ZohoAppPage();
 	}
 
 }

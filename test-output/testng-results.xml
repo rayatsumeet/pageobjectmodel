@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-22T16:58:21 IST" name="Suitepageobject" finished-at="2021-04-22T16:59:29 IST" duration-ms="67261">
+  <suite started-at="2021-04-23T18:29:42 IST" name="Suite" finished-at="2021-04-23T18:30:51 IST" duration-ms="69430">
     <groups>
     </groups>
-    <test started-at="2021-04-22T16:58:21 IST" name="Testlogin" finished-at="2021-04-22T16:59:29 IST" duration-ms="67261">
+    <test started-at="2021-04-23T18:29:42 IST" name="Test" finished-at="2021-04-23T18:30:51 IST" duration-ms="69430">
       <class name="TestCases.LoginTest">
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@130161f7]" started-at="2021-04-22T16:58:23 IST" name="loginTest" data-provider="getData" finished-at="2021-04-22T16:58:32 IST" duration-ms="9625" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.LoginTest@130161f7]" started-at="2021-04-23T18:29:44 IST" name="loginTest" data-provider="getData" finished-at="2021-04-23T18:30:00 IST" duration-ms="15757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,19 +28,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@130161f7]" started-at="2021-04-22T16:59:29 IST" name="tearDown" finished-at="2021-04-22T16:59:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTest@130161f7]" started-at="2021-04-23T18:30:52 IST" name="tearDown" finished-at="2021-04-23T18:30:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.LoginTest -->
       <class name="TestCases.ActivitiesTest">
-        <test-method signature="activitiesMainPageCheck()[pri:0, instance:TestCases.ActivitiesTest@708f5957]" started-at="2021-04-22T16:59:00 IST" name="activitiesMainPageCheck" finished-at="2021-04-22T16:59:29 IST" duration-ms="28465" status="PASS">
+        <test-method signature="activitiesMainPageCheck()[pri:0, instance:TestCases.ActivitiesTest@708f5957]" started-at="2021-04-23T18:30:27 IST" name="activitiesMainPageCheck" finished-at="2021-04-23T18:30:51 IST" duration-ms="24230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- activitiesMainPageCheck -->
       </class> <!-- TestCases.ActivitiesTest -->
+      <class name="TestCases.FeedTest">
+        <test-method signature="feedTest()[pri:0, instance:TestCases.FeedTest@619713e5]" started-at="2021-04-23T18:30:22 IST" name="feedTest" finished-at="2021-04-23T18:30:27 IST" duration-ms="4932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedTest -->
+      </class> <!-- TestCases.FeedTest -->
       <class name="TestCases.CreateAccountTest">
-        <test-method signature="createTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.CreateAccountTest@2c767a52]" started-at="2021-04-22T16:58:33 IST" name="createTest" data-provider="getData" finished-at="2021-04-22T16:58:45 IST" duration-ms="11716" status="PASS">
+        <test-method signature="createTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.CreateAccountTest@2c767a52]" started-at="2021-04-23T18:30:00 IST" name="createTest" data-provider="getData" finished-at="2021-04-23T18:30:12 IST" duration-ms="12248" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +63,7 @@ E.g. 20+20 will yield 40 automatically]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method signature="createTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.CreateAccountTest@2c767a52]" started-at="2021-04-22T16:58:45 IST" name="createTest" data-provider="getData" finished-at="2021-04-22T16:58:55 IST" duration-ms="9665" status="PASS">
+        <test-method signature="createTest(java.lang.String, java.lang.String)[pri:0, instance:TestCases.CreateAccountTest@2c767a52]" started-at="2021-04-23T18:30:12 IST" name="createTest" data-provider="getData" finished-at="2021-04-23T18:30:22 IST" duration-ms="9960" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,12 +81,6 @@ E.g. 20+20 will yield 40 automatically]]>
           </reporter-output>
         </test-method> <!-- createTest -->
       </class> <!-- TestCases.CreateAccountTest -->
-      <class name="TestCases.FeedTest">
-        <test-method signature="feedTest()[pri:0, instance:TestCases.FeedTest@619713e5]" started-at="2021-04-22T16:58:55 IST" name="feedTest" finished-at="2021-04-22T16:59:00 IST" duration-ms="5577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- feedTest -->
-      </class> <!-- TestCases.FeedTest -->
-    </test> <!-- Testlogin -->
-  </suite> <!-- Suitepageobject -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

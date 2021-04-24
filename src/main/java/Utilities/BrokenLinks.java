@@ -37,12 +37,12 @@ public class BrokenLinks extends Page {
         System.out.println(url);
     
         if(url == null || url.isEmpty()){
-System.out.println("URL is either not configured for anchor tag or it is empty");
+        	//System.out.println("URL is either not configured for anchor tag or it is empty");
             continue;
         }
         
         if(!url.startsWith(ur)){
-            System.out.println("URL belongs to another domain, skipping it.");
+         //   System.out.println("URL belongs to another domain, skipping it.");
             continue;
         }
         
